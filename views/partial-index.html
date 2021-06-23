@@ -1,0 +1,7 @@
+<main>
+    <h1 style="text-align: center;">${title}</h1>
+    <ul style="text-align: center; list-style: none;">
+        ${data.map(ceo => `
+            <li>${ceo.name} (${ceo.first_year_active}- )</li>`).join('')}
+    </ul>
+</main>
